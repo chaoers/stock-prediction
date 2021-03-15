@@ -1,6 +1,6 @@
 # 基于PaddlePaddle的A股预测
 
-> 本项目尝试通过百度自研PaddlePaddle框架实现深度神经网络DNN和长短期记忆网络LSTM来对A股进行预测，使用数据为2000-2021年上证50的数据
+> 本项目尝试通过百度自研PaddlePaddle框架实现深度神经网络DNN和长短期记忆网络LSTM来对A股进行预测，使用数据为2000-2021年上证指数的数据
 
 本项目[Github仓库](https://github.com/chaoers/stock-prediction)
 
@@ -61,7 +61,7 @@ data_pd.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -204,7 +204,7 @@ data_pd.head()
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
