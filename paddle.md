@@ -1012,9 +1012,15 @@ plt.show()
 
 ## 关于作者
 
+### Xiyan Li
+
+> 西安交通大学 金禾经济研究中心 本科在读
+
+- Mail：qq2542725243@stu.xjtu.edu.cn
+
 ### Asterisk(Fan Guofan)
 
-> 西安交通大学 本科在读
+> 西安交通大学 生物技术(生物信息学方向) 本科在读
 
 - Mail: [fanguofan@asteriscum.cn](mailto:fanguofan@asteriscum.cn)
 - Github: [chaoers](https://github.com/chaoers)
