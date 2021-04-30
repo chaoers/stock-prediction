@@ -12,13 +12,13 @@
 传统经济学模型
 
 - [X] ARIMA 
+- [X] GARCH
 
 ## 机器学习框架
 
 目前已实现的机器学习框架有
 
 - [X] 百度自研PaddlePaddle框架, [项目说明](./paddle.md)
-- [ ] Tensorflow 2, 开发中
 
 ## License 开源协议
 
@@ -32,7 +32,7 @@
 
 - Mail：qq2542725243@stu.xjtu.edu.cn
 
-### Asterisk(Fan Guofan)
+### Asterisk(Guofan Fan)
 
 > 西安交通大学 生物技术(生物信息学方向) 本科在读
 
