@@ -218,7 +218,7 @@ plt.plot(data_pd['over'])
 
 
 
-![png](output_14_2.png)
+![png](./img/output_14_2.png)
 
 
 ### 提取需要数据并格式化
@@ -737,7 +737,7 @@ draw_train_loss(Batchs,all_train_loss,all_eval_loss, 'DNN')
 
 
 
-![png](output_33_1.png)
+![png](./img/output_33_1.png)
 
 
 ## LSTM网络
@@ -933,7 +933,7 @@ draw_train_loss(Batchs,all_train_loss,all_eval_loss, 'LSTM')
 
 
 
-![png](output_38_1.png)
+![png](./img/output_38_1.png)
 
 
 ## ARIMA
@@ -962,7 +962,7 @@ plt.plot(data_arma)
 
 
 
-![png](output_41_1.png)
+![png](./img/output_41_1.png)
 
 
 ### 进行ADF检验,即使在10%的水平上也不能拒绝原假设，即序列不平稳，存在单位根
@@ -991,7 +991,7 @@ plt.plot(data_arma_diff)
 
 
 
-![png](output_44_1.png)
+![png](./img/output_44_1.png)
 
 
 
@@ -1014,7 +1014,7 @@ fig = sm.graphics.tsa.plot_acf(data_arma_diff,lags=20)
 ```
 
 
-![png](output_48_0.png)
+![png](./img/output_48_0.png)
 
 
 
@@ -1024,7 +1024,7 @@ fig = sm.graphics.tsa.plot_pacf(data_arma_diff,lags=20)
 ```
 
 
-![png](output_49_0.png)
+![png](./img/output_49_0.png)
 
 
 
@@ -1075,7 +1075,7 @@ print(sm.stats.durbin_watson(arima_mod.resid))
 
 
 
-![png](output_51_1.png)
+![png](./img/output_51_1.png)
 
 
 ### 从AC、PAC及durbin watson检验中发现ARIAM(6,1,0)残差平稳，较好的拟合了数据。下判断是否需要用GARCH及GARCH阶数
@@ -1097,7 +1097,7 @@ print(sm.stats.durbin_watson(arima_mod.resid))
 
 
 
-![png](output_53_1.png)
+![png](./img/output_53_1.png)
 
 
 ### 可以看出残差是white noise process，但残差平方不是white noise process， 也即存在条件异方差，故需要用GARCH、ARCH模型进行估计
@@ -1540,7 +1540,7 @@ plt.show()
 ```
 
 
-![png](output_67_0.png)
+![png](./img/output_67_0.png)
 
 
 #### 验证集预测结果
@@ -1585,7 +1585,7 @@ plt.show()
 ```
 
 
-![png](output_69_0.png)
+![png](./img/output_69_0.png)
 
 
 ## 模型改进
